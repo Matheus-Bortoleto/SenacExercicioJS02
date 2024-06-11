@@ -4,7 +4,6 @@ function averiguarValor() {
     let dependentes = parseInt(document.getElementById("dep").value);
 
     let aumento = 0;
-
     if (salario <= 1500) {
         if (dependentes === 1) {
             aumento = 0.15;
